@@ -44,20 +44,20 @@ We measure success using:
 - Hour-by-hour spoofing pattern identification.
 - Anomaly score distributions for in-depth insights.
 
-## 🚀 Getting Started
-### Run the Model
+### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/spoof-detection.git
-   cd spoof-detection
+   git clone https://github.com/Arnav020/PPO-Based-Spoof-Detection.git
+   cd PPO-Based-Spoof-Detection
    ```
-2. Install dependencies:
+2. Create a virtual environment (optional but recommended):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+   ```
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
-   ```
-3. Execute the model:
-   ```bash
-   python main.py --data_path /path/to/data --model_path /path/to/model
    ```
 
 ## 📢 Who Should Use This?
